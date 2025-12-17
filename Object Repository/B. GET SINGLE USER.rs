@@ -61,6 +61,14 @@
       <value>identity</value>
       <webElementGuid>8dfd80a3-a7b6-433f-92a9-8c7d5f394b81</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>c7fe96c4-966e-4752-bc5c-95ed3bd9211f</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>10.4.2</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>

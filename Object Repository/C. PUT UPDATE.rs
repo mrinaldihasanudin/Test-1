@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
+      <value>application/json</value>
       <webElementGuid>ef68f212-a949-4789-ac40-9e97b9daf24b</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.4.2</katalonVersion>
