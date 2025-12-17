@@ -17,25 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-//import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-//import internal.GlobalVariable
-//import groovy.json.JsonSlurper
-//import com.kms.katalon.core.util.KeywordUtil
-//
-//def resSingle = WS.sendRequest(findTestObject('Object Repository/B. GET SINGLE USER'))
-//WS.verifyResponseStatusCode(resSingle, 200)
-//
-//def jsonSingle = new JsonSlurper().parseText(resSingle.getResponseBodyContent())
-//
-//def capturedEmail = jsonSingle?.email
-//if (!capturedEmail) {
-//    KeywordUtil.markFailedAndStop("Email tidak ada di response: " + resSingle.getResponseBodyContent())
-//}
-//
-//GlobalVariable.userEmail = capturedEmail
-//println("Email from GET single user = " + GlobalVariable.userEmail)
-
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import internal.GlobalVariable
